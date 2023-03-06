@@ -28,7 +28,7 @@ This graph shows the distribution of various homeless services in the Maricopa C
 ### Elbow Method for Optimal K Clusters 
 <img width="500" alt="Screen Shot 2022-06-29 at 8 11 31 AM" src="https://user-images.githubusercontent.com/88412646/176506581-1b5f9bdb-777b-4f67-9711-e2fff4b92c30.png">
 
-This graph shows the elbow method, which we used to choose the final number of clusters for our model. This method iterates through multiple versions of a model and tries to find the model that minimizes the amount of variation within clusters while maximizing variation between clusters. We then choose the optimal number of clusters based on the lowest number of clusters that min's the most variation.
+This graph shows the elbow method, which was used to choose the final number of clusters for our model. This method iterates through multiple versions of a model and tries to find the model that minimizes the amount of variation within clusters while maximizing variation between clusters. I then chose the optimal number of clusters based on the lowest number of clusters that min's the most variation.
 
 ## Exploratory Visualizations
 
@@ -45,6 +45,14 @@ Each of these graphs were used in the preliminary analysis and display a 'Projec
 <img width="1100" alt="Screen Shot 2022-06-29 at 8 17 52 AM" src="https://user-images.githubusercontent.com/88412646/176507703-7f64a3db-be0a-4caa-a2f7-bba0a168c338.png">
 
 
-## Final Evaluation Methods for Clusters
-<img width="500" alt="Screen Shot 2022-06-29 at 8 01 39 AM" src="https://user-images.githubusercontent.com/88412646/176504982-f1bfba89-1341-4ff2-8d0d-d76dad3b1894.png">
+DBSCAN
+  . Clustering algorithms to identify clusters of points in a dataset based on their spatial density
+  . Groups together points that are closely packed and seperates out outliers that are not part of the cluster
+  . Looks for areas of high density in the dataset and identifies clusters based on those areas
+  
+  
+BIRCH
+Hierarchical clustering algorithm that can cluster large datasets
+  . Assigning each data point to the nearest cluster centroid based on the radius and the threshold specified
+
 
